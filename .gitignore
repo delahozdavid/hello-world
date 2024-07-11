@@ -1,0 +1,6 @@
+# ignore js files
+*.js
+# ignore yaml files
+*.yaml
+# ignore virtual environment folders
+env/
