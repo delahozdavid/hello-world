@@ -14,7 +14,7 @@ correo_a_buscar = "castrodavidd@hotmail.com"
 
 
 try:
-    # Enviar una solicitud POST para registrar los datos
+    # Enviar una solicitud POST para registrar los datos para nuestro Webhook
     response_post = requests.post(url, json=datos_registro)
     
     # Verificar si la solicitud POST fue exitosa (código de estado 201)
