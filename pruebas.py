@@ -2,7 +2,7 @@ import requests
 
 url = 'https://7f77-2806-230-6014-bee0-8018-afbe-b0c3-fcbc.ngrok-free.app'
 
-# Datos para enviar mediante una solicitud POST
+# Datos para enviar mediante una solicitud POST por medio de FastAPI
 datos_registro = {
     "correo": "castrodavidd@hotmail.com",
     "nombre": "David Castro Encinia"
